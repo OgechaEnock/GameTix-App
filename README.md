@@ -1,75 +1,66 @@
-<<<<<<< HEAD
-# GameTix-App
-A react app that allows users to view available tickets and purchase them based on availability.
-=======
-# Getting Started with Create React App
+# GameTix — Sports Event Ticketing App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+GameTix is a modern React-based web application that allows users to browse, filter, and purchase tickets for various sports events such as football, basketball, and golf.  
+It connects to a local `db.json` backend (via JSON Server) to store and manage event data dynamically.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+##  Features
 
-### `npm start`
+1 **Event Listings** – Displays available sports events dynamically.  
+2 **Search & Filter** – Filter by sport type or ticket price range.  
+3 **Live Ticket Updates** – Ticket count reduces automatically after every purchase.  
+4 **Purchase Logging** – Every ticket purchase is recorded in the database.  
+5 **Dynamic Event Details** – Click any event to view its detailed information.  
+6 **Clean UI & Responsive Design** – Styled with modern, mobile-friendly CSS.  
+7 **Modular Components** – Built with reusable React components for scalability.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+##  Components Overview
 
-### `npm test`
+| Component | Description |
+|------------|-------------|
+| **Navbar** | Contains the app title, search bar, and reset button. |
+| **Sidebar** | Displays filters (sport type, price range) and selected event details. |
+| **EventCard** | Shows each event with image, title, price, and ticket status. |
+| **EventDetails** | Displays selected event information under the filters. |
+| **Footer** | Simple footer with credits or additional info. |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+##  Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React.js (Frontend Framework)**
+- **JavaScript (ES6+)**
+- **CSS3 (Custom Styling)**
+- **JSON Server (Mock Backend)**
+- **Fetch API** for CRUD operations
+- **Vercel** (Optional hosting)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+##  Setup Instructions
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 1️ Clone the repository
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+git@github.com:OgechaEnock/GameTix-App.git
+cd gametix
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 2️ Install dependencies
+ npm install
+ 
+### 3️ Start JSON Server
+ npm install -g json-server
 
-## Learn More
+ Then run;
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+ npx json-server --watch db.json --port 3001
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+ ### 4️ Run the React App
+  npm start
+  
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> 2fece2e (Initialize project using Create React App)
