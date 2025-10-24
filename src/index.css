@@ -1,13 +1,279 @@
+
 body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8fafc;
+  color: #1f2937;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+/*  Navbar */
+.navbar {
+  background-color: #1e40af;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+}
+
+.navbar input {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 6px;
+  width: 220px;
+  outline: none;
+  font-size: 0.95rem;
+}
+
+.navbar button {
+  margin-left: 0.8rem;
+  padding: 0.5rem 1rem;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.navbar button:hover {
+  background-color: #2563eb;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 260px;
+  background: #f9fafb;
+  border-right: 1px solid #e5e7eb;
+  padding: 1rem;
+  min-height: 100vh;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.03);
+}
+
+.sidebar-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+
+/* Sport Tabs */
+.tab-btn {
+  display: block;
+  width: 100%;
+  margin: 4px 0;
+  padding: 8px;
+  background: #fff;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: left;
+  font-size: 0.95rem;
+  transition: 0.3s ease;
+}
+
+.tab-btn:hover {
+  background: #eff6ff;
+}
+
+.tab-btn.active {
+  background: #3b82f6;
+  color: white;
+  border-color: #3b82f6;
+}
+
+.filter-section {
+  margin-top: 1rem;
+}
+
+.filter-section select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  margin-top: 0.4rem;
+}
+
+/* Event Details Box */
+.event-details-box {
+  margin-top: 1.5rem;
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.details-header {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 0.8rem;
+  border-bottom: 2px solid #3b82f6;
+  padding-bottom: 0.4rem;
+}
+
+.details-body p {
+  margin: 6px 0;
+  font-size: 0.9rem;
+  color: #374151;
+}
+
+.ticket-available {
+  color: #16a34a;
+  font-weight: 600;
+}
+
+.ticket-soldout {
+  color: #dc2626;
+  font-weight: 600;
+}
+
+/* Main Content Area */
+.content {
+  flex-grow: 1;
+  padding: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+/*  Event Card */
+.event-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+
+.event-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.event-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.event-body {
+  padding: 1rem;
+}
+
+.event-body h3 {
+  font-size: 1.1rem;
+  margin: 0;
+  color: #1f2937;
+}
+
+.event-body .sport {
+  color: #6b7280;
+  font-size: 0.9rem;
+  margin: 5px 0 10px;
+}
+
+
+.event-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.8rem 0;
+}
+
+.price-tag {
+  font-weight: 600;
+  color: #2563eb;
+  font-size: 1rem;
+}
+
+.ticket-count {
+  font-size: 0.9rem;
+  color: #374151;
+  font-weight: 500;
+}
+
+.ticket-count.sold {
+  color: #dc2626;
+}
+
+
+.buy-btn {
+  width: 100%;
+  padding: 0.6rem;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.buy-btn:hover {
+  background-color: #2563eb;
+}
+
+
+.alert {
+  background: #e0f2fe;
+  padding: 1rem;
+  border-radius: 6px;
+  color: #1e3a8a;
+  font-weight: 500;
+  text-align: center;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+@media (max-width: 768px) {
+  .layout {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #e5e7eb;
+    min-height: auto;
+  }
+
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  }
+
+  .navbar input {
+    width: 140px;
+  }
 }
