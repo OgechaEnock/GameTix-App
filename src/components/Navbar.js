@@ -1,14 +1,16 @@
-// src/components/Navbar.js
 import React from "react";
-import { Link } from "react-router-dom";
 
-function Navbar() {
+function Navbar({ onSearch, onReset }) {
   return (
     <nav className="navbar">
       <h1>GAMETIX</h1>
       <div className="search-group">
-        <input type="text" placeholder="Search..." />
-        <Link to="/" className="btn-reset">Reset</Link>
+        <input
+          type="text"
+          placeholder="Search..."
+          onChange={(e) => onSearch(e.target.value)}
+        />
+        <button onClick={onReset}>Reset</button>
       </div>
     </nav>
   );
