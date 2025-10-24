@@ -1,3 +1,4 @@
+
 # GameTix — Sports Event Ticketing App
 
 GameTix is a modern React-based web application that allows users to browse, filter, and purchase tickets for various sports events such as football, basketball, and golf.  
@@ -63,4 +64,3 @@ cd gametix
  ### 4️ Run the React App
   npm start
   
-
