@@ -1,0 +1,241 @@
+{
+  "events": [
+    {
+      "id": "1",
+      "title": "Arsenal vs Liverpool",
+      "sport": "Football",
+      "date": "2025-11-10",
+      "time": "18:00",
+      "stadium": "Anfield",
+      "price": 800,
+      "tickets": 0,
+      "thumbnail": "https://ichef.bbci.co.uk/ace/standard/1920/cpsprodpb/08da/live/acf4d340-a983-11ee-bc2f-cb5579b90709.png"
+    },
+    {
+      "id": "2",
+      "title": "Strathmore vs Zetech",
+      "sport": "Basketball",
+      "date": "2025-11-12",
+      "time": "20:00",
+      "stadium": "Talanta",
+      "price": 1200,
+      "tickets": 58,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwqOwhKTzoz3sAo7LAHJfv65ytIN3_Mz9uuA&s"
+    },
+    {
+      "id": "3",
+      "title": "Parklands Golf Opens",
+      "sport": "Golf",
+      "date": "2025-11-14",
+      "time": "09:00",
+      "stadium": "Augusta National",
+      "price": 1500,
+      "tickets": 38,
+      "thumbnail": "https://www.royalnairobigc.com/wp-content/uploads/2025/05/cropped-Untitled-1Artboard-1-3.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Kenya vs Tanzania",
+      "sport": "Football",
+      "date": "2025-11-16",
+      "time": "21:00",
+      "stadium": "Kasarani Sports Complex",
+      "price": 1000,
+      "tickets": 79,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnegf12eWu4a_VjSQy50mCKZ9vmFQJ3qgOOA&s"
+    },
+    {
+      "id": "5",
+      "title": "  Lakers vs Celtics",
+      "sport": "Basketball",
+      "date": "2025-11-18",
+      "time": "19:00",
+      "stadium": "Bullington Center",
+      "price": 1100,
+      "tickets": 45,
+      "thumbnail": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.5f4d55d7-493e-493d-af1c-02bfc72aafb2/23/BOXART-16X9/en-US/288x91._UR1920,1080_.png"
+    },
+    {
+      "id": "6",
+      "title": "Mombasa Open Golf",
+      "sport": "Golf",
+      "date": "2025-11-20",
+      "time": "08:00",
+      "stadium": "Mombasa Golf Club",
+      "price": 1400,
+      "tickets": 30,
+      "thumbnail": "https://pbs.twimg.com/profile_images/1694295060077043712/NrCD3RDt_400x400.jpg"
+    },
+    {
+      "id": "7",
+      "title": "Mathare United vs Gor Mahia",
+      "sport": "Football",
+      "date": "2025-11-22",
+      "time": "17:00",
+      "stadium": "Umoja Stadium",
+      "price": 900,
+      "tickets": 70,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAcRzwvvTJPwS4MXbli_fpQ7JkylX5nBW2Qw&s"
+    },
+    {
+      "id": "8",
+      "title": "Kisii School vs Alliance High",
+      "sport": "Basketball",
+      "date": "2025-11-23",
+      "time": "20:30",
+      "stadium": "Alliance Gymnasium",
+      "price": 1300,
+      "tickets": 55,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKdny1jm99dK-xvTTTjX9_yGWgy1lMbddG7Q&s"
+    },
+    {
+      "id": "9",
+      "title": "Golf International Championship",
+      "sport": "Golf",
+      "date": "2025-11-24",
+      "time": "10:00",
+      "stadium": "St Andrews Rwanda",
+      "price": 1600,
+      "tickets": 20,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo5KDqJhwLIZnl9yBC88IaHIvex1Xeoe3O0g&s"
+    }
+  ],
+  "purchases": [
+    {
+      "id": "a2d9",
+      "eventId": "1",
+      "eventName": "Arsenal vs Liverpool",
+      "sport": "Football",
+      "price": 800,
+      "time": "10/24/2025, 4:51:33 AM"
+    },
+    {
+      "id": "b6fe",
+      "eventId": "1",
+      "eventName": "Arsenal vs Liverpool",
+      "sport": "Football",
+      "price": 800,
+      "time": "10/24/2025, 4:53:24 AM"
+    },
+    {
+      "id": "7d80",
+      "eventId": "3",
+      "eventName": "Parklands Golf Opens",
+      "sport": "Golf",
+      "price": 1500,
+      "time": "10/24/2025, 4:53:30 AM"
+    },
+    {
+      "id": "cbf2",
+      "eventId": "2",
+      "eventName": "Strathmore vs Zetech",
+      "sport": "Basketball",
+      "price": 1200,
+      "time": "10/24/2025, 4:53:37 AM"
+    },
+    {
+      "id": "c8f5",
+      "eventId": "1",
+      "eventName": "Arsenal vs Liverpool",
+      "sport": "Football",
+      "price": 800,
+      "time": "10/24/2025, 4:54:54 AM"
+    },
+    {
+      "id": "a631",
+      "eventId": "1",
+      "eventName": "Arsenal vs Liverpool",
+      "sport": "Football",
+      "price": 800,
+      "time": "10/24/2025, 4:55:12 AM"
+    },
+    {
+      "id": "e490",
+      "eventId": "1",
+      "eventName": "Arsenal vs Liverpool",
+      "sport": "Football",
+      "price": 800,
+      "time": "10/24/2025, 6:58:39 AM"
+    },
+    {
+      "id": "218e",
+      "eventId": "1",
+      "eventName": "Arsenal vs Liverpool",
+      "sport": "Football",
+      "price": 800,
+      "time": "10/24/2025, 6:58:47 AM"
+    },
+    {
+      "id": "1bc8",
+      "eventId": "1",
+      "eventName": "Arsenal vs Liverpool",
+      "sport": "Football",
+      "price": 800,
+      "time": "10/24/2025, 8:02:32 AM"
+    },
+    {
+      "id": "c7dc",
+      "eventId": "1",
+      "eventName": "Arsenal vs Liverpool",
+      "sport": "Football",
+      "price": 800,
+      "time": "10/24/2025, 8:04:28 AM"
+    },
+    {
+      "id": "fa38",
+      "eventId": "1",
+      "eventName": "Arsenal vs Liverpool",
+      "sport": "Football",
+      "price": 800,
+      "time": "10/24/2025, 8:08:46 AM"
+    },
+    {
+      "id": "8ab4",
+      "eventId": "1",
+      "eventName": "Arsenal vs Liverpool",
+      "sport": "Football",
+      "price": 800,
+      "time": "10/24/2025, 8:13:38 AM"
+    },
+    {
+      "id": "065e",
+      "eventId": "1",
+      "eventName": "Arsenal vs Liverpool",
+      "sport": "Football",
+      "price": 800,
+      "time": "10/24/2025, 8:13:45 AM"
+    },
+    {
+      "id": "a62f",
+      "eventId": "1",
+      "eventName": "Arsenal vs Liverpool",
+      "sport": "Football",
+      "price": 800,
+      "time": "10/24/2025, 8:13:52 AM"
+    },
+    {
+      "id": "6010",
+      "eventId": "1",
+      "eventName": "Arsenal vs Liverpool",
+      "sport": "Football",
+      "price": 800,
+      "time": "10/24/2025, 8:14:19 AM"
+    },
+    {
+      "id": "b75d",
+      "eventId": "1",
+      "eventName": "Arsenal vs Liverpool",
+      "sport": "Football",
+      "price": 800,
+      "time": "10/24/2025, 8:14:22 AM"
+    },
+    {
+      "id": "a45c",
+      "eventId": "1",
+      "eventName": "Arsenal vs Liverpool",
+      "sport": "Football",
+      "price": 800,
+      "time": "10/24/2025, 8:14:26 AM"
+    }
+  ]
+}
