@@ -277,3 +277,10 @@ body {
     width: 140px;
   }
 }
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background: #1e40af;
+  color: white;
+  font-size: 0.9rem;
+}

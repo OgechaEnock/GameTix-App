@@ -3,6 +3,8 @@ import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import EventCard from "./components/EventCard";
 import "./index.css";
+import Footer from "./components/Footer";
+
 
 const API_URL = "http://localhost:3001/events";
 
@@ -86,6 +88,7 @@ function App() {
           setSelectedEvent(null);
         }}
       />
+      
 
       <div className="layout">
         
@@ -113,8 +116,11 @@ function App() {
           </div>
         </main>
       </div>
+      <Footer />
     </div>
+    
   );
 }
 
 export default App;
+

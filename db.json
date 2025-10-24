@@ -41,7 +41,7 @@
       "time": "21:00",
       "stadium": "Kasarani Sports Complex",
       "price": 1000,
-      "tickets": 76,
+      "tickets": 75,
       "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnegf12eWu4a_VjSQy50mCKZ9vmFQJ3qgOOA&s"
     },
     {
@@ -85,7 +85,7 @@
       "time": "20:30",
       "stadium": "Alliance Gymnasium",
       "price": 1300,
-      "tickets": 55,
+      "tickets": 54,
       "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKdny1jm99dK-xvTTTjX9_yGWgy1lMbddG7Q&s"
     },
     {
@@ -335,6 +335,22 @@
       "sport": "Football",
       "price": 1000,
       "time": "10/24/2025, 8:55:45 AM"
+    },
+    {
+      "id": "60eb",
+      "eventId": "4",
+      "eventName": "Kenya vs Tanzania",
+      "sport": "Football",
+      "price": 1000,
+      "time": "10/24/2025, 9:03:27 AM"
+    },
+    {
+      "id": "8fec",
+      "eventId": "8",
+      "eventName": "Kisii School vs Alliance High",
+      "sport": "Basketball",
+      "price": 1300,
+      "time": "10/24/2025, 9:13:59 AM"
     }
   ]
 }
